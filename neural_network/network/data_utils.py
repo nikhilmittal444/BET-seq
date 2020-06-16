@@ -67,8 +67,7 @@ def one_hot(seq):
         if nt == "T":
             encoded_seq[3, pos] = 1
 
-    encoded_seq = encoded_seq.reshape((1, 40))
-
+    #encoded_seq = encoded_seq.reshape((1, 40))  
     # Return the encoded sequence
     return encoded_seq
 
